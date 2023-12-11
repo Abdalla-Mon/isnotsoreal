@@ -1,0 +1,61 @@
+.Navbar {
+  background-color: var(--base-color);
+}
+
+
+.dropDown {
+  background-color: var(--secondary-color);
+}
+
+.dropDown::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dropDown::-webkit-scrollbar-track {
+  background-color: var(--helper-color);
+}
+
+.dropDown::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+.search_parent {
+  background-color: transparent;
+  width: 42px;
+  transition: 350ms width;
+}
+
+.search_parent.active {
+  width: 340px;
+}
+
+.inputSearch {
+  color: var(--secondary-color) ;
+  background-color: transparent;
+  width: 100%;
+}
+
+.c::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+
+.searchButton {
+  width: 42px;
+  height: 36px;
+}
+
+.searchButton img {
+  width: 36;
+}
+
+.choosed {
+  border-radius: 6px;
+  background-color: #33353a;
+}

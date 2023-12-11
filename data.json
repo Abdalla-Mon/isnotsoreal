@@ -1,0 +1,1098 @@
+{
+  "data": {
+    "video_link": {
+      "src": "cat.mp4",
+      "title": "Mouse trap"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "label": "CNM"
+      },
+      {
+        "id": 2,
+        "label": "Rabbit News"
+      },
+      {
+        "id": 3,
+        "label": "BDC"
+      }
+    ],
+    "posts": [
+      {
+        "category_id": 1,
+        "timestamp": "2023-11-25T14:30:00Z",
+        "title": "Climate Change News 1",
+        "id": 1,
+        "fake_article": {
+          "timestamp": "2023-11-25T14:30:00Z",
+          "title": "Fake News on Climate Change",
+          "description": "Lorem ipsum dolor sit amet",
+          "image": "./assets/test.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Studies show masks do little to stop virus spread."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "mask skepticism image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fakesitenews.com/masks-dont-work"
+            },
+            {
+              "type": "text",
+              "data": "The COVID vaccine has been shown to damage women's reproductive systems."
+            },
+            {
+              "type": "video",
+              "data": "https://www.youtube.com/embed/Fhk2Dqk9Tek"
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "vaccine misinformation image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fakesitenews.com/covid-vaccine-infertility"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-11-26T09:00:00Z",
+          "title": "Fact Checked: The Truth About Climate Change",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/2.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Climate change is a scientifically proven phenomenon."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/climate-change"
+            },
+            {
+              "type": "text",
+              "data": "Multiple studies show masks significantly reduce spread of airborne viruses like COVID-19."
+            },
+
+            {
+              "type": "link",
+              "data": "https://truenews.org/masks-work"
+            },
+            {
+              "type": "video",
+              "data": "https://youtu.be/embed/zQBeXtxAQzg"
+            },
+            {
+              "type": "text",
+              "data": "Multiple studies have found no association between any vaccine and fertility issues."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+
+            {
+              "type": "link",
+              "data": "https://trustednews.org/vaccines-fertility-myth"
+            },
+            {
+              "type": "video",
+              "data": "https://youtube/embed/dQw4w9WgXcQ"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "id": 2,
+        "timestamp": "2023-11-27T18:00:00Z",
+        "title": "Vaccine News 2",
+        "fake_article": {
+          "timestamp": "2023-11-27T18:00:00Z",
+          "title": "Disinformation",
+          "description": " ipsa quos. Accusantium eos ex numquam, nemo, quibusdam minus ipsa asperiores iusto a, perferendis illo ratione quam dolore molestiae ad ipsam!",
+          "image": "./assets/3.jpg",
+          "content": [
+            {
+              "type": "video",
+              "data": "https://fake-news-site.com/video-about-vaccines"
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "text",
+              "data": "Vaccines cause autism."
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-11-28T10:00:00Z",
+          "title": "Fact Checked: The Truth About Vaccines LOREM ATTACKING",
+          "description": "true desc adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/4.jpg",
+          "content": [
+            {
+              "type": "image",
+              "data": "https://true-news-site.com/image-about-vaccines.jpg"
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "text",
+              "data": "Vaccines are safe and do not cause autism."
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2023-11-25T14:30:00Z",
+        "title": "anything 3",
+        "id": 3,
+        "fake_article": {
+          "timestamp": "2023-11-25T14:30:00Z",
+          "title": "anything else Eren Yeager ",
+          "description": "adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/5.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "anything."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-change"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-11-26T09:00:00Z",
+          "title": "Fact Checked: The Truth About Climate Change",
+          "description": "adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/6.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Climate change is a scientifically proven phenomenon."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/climate-change"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 1,
+        "timestamp": "2023-11-25T14:30:00Z",
+        "title": "another now Fake object 1",
+        "id": 4,
+        "fake_article": {
+          "timestamp": "2023-11-25T14:30:00Z",
+          "title": "adipisicing elit. Sit, cumque",
+          "description": "Lorem Maximilain",
+          "image": "./assets/testOne.png",
+          "content": [
+            {
+              "type": "text",
+              "data": "Climate change is a hoax."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-change"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-11-26T09:00:00Z",
+          "title": "Fthe true post BLA BLA BLA ",
+          "description": "adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/7.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Climate change is a scientifically proven phenomenon."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/climate-change"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 1,
+        "timestamp": "2023-11-29T12:45:00Z",
+        "title": "New Climate Change Article 1 New Climate ",
+        "id": 5,
+        "fake_article": {
+          "timestamp": "2023-11-29T12:45:00Z",
+          "title": "Debunked: Recent Climate Change Myths New Climate Change Article 1 New Climate Change Article 1 ",
+          "description": "fake desc",
+          "image": "./assets/8.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Recent claims about climate change have been debunked."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-myths-debunked"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-11-30T08:30:00Z",
+          "title": "Verified: Scientific Facts on Climate Change",
+          "description": "New Climate Change Article 1",
+          "image": "./assets/testOne.png",
+          "content": [
+            {
+              "type": "text",
+              "data": "Scientific evidence supports the reality of climate change."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/scientific-facts-climate-change"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-05T08:00:00Z",
+        "title": "Rabbit Diet Myths 2",
+        "id": 6,
+        "fake_article": {
+          "timestamp": "2023-12-05T08:00:00Z",
+          "title": "Misinformation on Rabbit Diets",
+          "description": "New Climate Change Article 1",
+          "image": "./assets/9.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "False claims about the diet requirements of rabbits."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/rabbit-diet-myths"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-06T11:30:00Z",
+          "title": "Verified",
+          "description": "fake secription here ",
+          "image": "./assets/10.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Accurate information on the nutritional needs of pet rabbits."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/proper-rabbit-diet"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-10T14:15:00Z",
+        "title": "Rabbit Agility Championships 2",
+        "id": 7,
+        "fake_article": {
+          "timestamp": "2023-12-10T14:15:00Z",
+          "title": "Fake Claims About Rabbit Agility ",
+          "description": "fake desc New Climate Change Article 1 New Climate Change Article 1",
+          "image": "./assets/11.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Unsubstantiated rumors regarding a rabbit agility competition."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/fake-rabbit-agility"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-11T09:45:00Z",
+          "title": "Confirmed: Successful Rabbit Agility Championships",
+          "description": "New Climate Change Article 1 LOREMYANOO RONALDO ",
+          "image": "./assets/testOne.png",
+          "content": [
+            {
+              "type": "text",
+              "data": "Authentic report on a highly successful rabbit agility event."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/rabbit-agility-championships"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-15T20:30:00Z",
+        "title": "Rabbit Breeds Showcase 2",
+        "id": 8,
+        "fake_article": {
+          "timestamp": "2023-12-15T20:30:00Z",
+          "title": "False Information on Rare",
+          "description": "False Information on Rare Rabbit Breeds False Information on Rare",
+          "image": "./assets/testOne.png",
+          "content": [
+            {
+              "type": "text",
+              "data": "Misleading details about rare rabbit breeds in a supposed showcase."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/fake-rabbit-breeds-showcase"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-16T12:00:00Z",
+          "title": "Verified: Authentic Rabbit Breeds Showcase",
+          "description": "False Information on Rare Rabbit Breeds False Information on Rare",
+          "image": "./assets/12.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Accurate information about various rabbit breeds in a legitimate showcase event."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/authentic-rabbit-breeds-showcase"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2023-12-20T10:30:00Z",
+        "title": "BDC Technology Innovations 3",
+        "id": 9,
+        "fake_article": {
+          "timestamp": "2023-12-20T10:30:00Z",
+          "title": "False Claims on BDC Technological Advancements",
+          "description": "False Information on Rare Rabbit Breeds False Information on Rare False Information on Rare",
+          "image": "./assets/testOne.png",
+          "content": [
+            {
+              "type": "text",
+              "data": "Unsubstantiated information regarding recent technological advancements at BDC."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/bdc-fake-tech-innovations"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-21T14:00:00Z",
+          "title": "Verified: BDC's Genuine",
+          "description": " False Information on Rare",
+          "image": "./assets/13.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Confirmed reports on BDC's real and groundbreaking technological innovations."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/bdc-genuine-tech-innovations"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2023-12-25T18:45:00Z",
+        "title": "BDC Research Breakthrough 3",
+        "id": 10,
+        "fake_article": {
+          "timestamp": "2023-12-25T18:45:00Z",
+          "title": "Debunked: False Research Claims by BDC",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta! adipisicing elit. Sit, cumque voluptatum ullam voluptatibus sint iusto autem quod modi dolor dicta!",
+          "image": "./assets/14.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Misinformation circulating about a supposed breakthrough in BDC's research."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/bdc-false-research-claims"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-26T09:30:00Z",
+          "title": "Confirmed: BDC's Authentic Research Breakthrough",
+          "description": "Fake Data Here ya Hamada",
+          "image": "./assets/15.jpg",
+          "content": [
+            {
+              "type": "text",
+              "data": "Validation of BDC's genuine breakthrough in a recent research project."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/bdc-authentic-research-breakthrough"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2023-12-30T15:20:00Z",
+        "title": "BDC Environmental Initiatives 3",
+        "id": 11,
+        "fake_article": {
+          "timestamp": "2023-12-30T15:20:00Z",
+          "title": "Misleading Information on BDC's Environmental Initiatives",
+          "description": "fake desc",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiB8giTN9Hj8QAEz4DVdCtqWbfnrKoZSo2nA&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "False claims about BDC's commitment to environmental initiatives."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/bdc-fake-environmental-initiatives"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-31T11:00:00Z",
+          "title": "Verified: BDC's Genuine Environmental Initiatives",
+          "description": "fake desc",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ums6Rp3LJDJZ4ClL81ZAa1x7Jos8YVCdKg&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "Confirmation of BDC's legitimate efforts in environmental conservation and initiatives."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/bdc-authentic-environmental-initiatives"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 1,
+        "timestamp": "2023-12-01T12:00:00Z",
+        "title": "New Climate Change Findings",
+        "id": 12,
+        "fake_article": {
+          "timestamp": "2023-12-01T12:00:00Z",
+          "title": "Debunked: Recent Climate Change Myths",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqKIS4-riJ4ZgDKMK0Oh2qapWQJ2rwDfKEtA&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "Recent claims about climate change have been debunked."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-myths-debunked"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-02T08:30:00Z",
+          "title": "Verified: Scientific Facts on Climate Change",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFi8Ojh4mepSeChsvy8ywkR7s_iGMcdiv8SfsEk_sWAtgqJDssEgG4V_K1-HC45wUAOqs&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "Scientific evidence supports the reality of climate change."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/scientific-facts-climate-change"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-05T14:30:00Z",
+        "title": "Rabbit Health Tips",
+        "id": 13,
+        "fake_article": {
+          "timestamp": "2023-12-05T14:30:00Z",
+          "title": "Myths About Rabbit Health",
+          "image": "https://images.pexels.com/photos/699466/pexels-photo-699466.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "content": [
+            {
+              "type": "text",
+              "data": "Common misconceptions about keeping rabbits healthy."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/rabbit-health-myths"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-06T09:00:00Z",
+          "title": "Confirmed: Best Practices for Rabbit Health",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuDzCl30jRiilhd_WGpkWpmuXZBdarBa_X05X0EXVSMIMTWlkVFpj2R_NuR1EX52ODwIw&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "Tips on maintaining the health and well-being of pet rabbits."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/best-rabbit-health-practices"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-10T18:45:00Z",
+        "title": "Rabbit Breeding Myths",
+        "id": 14,
+        "fake_article": {
+          "timestamp": "2023-12-10T18:45:00Z",
+          "title": "False Information on Rabbit Breeding",
+          "image": "https://images.pexels.com/photos/618079/pexels-photo-618079.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "content": [
+            {
+              "type": "text",
+              "data": "Misconceptions about breeding rabbits and their consequences."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/rabbit-breeding-myths"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-11T14:00:00Z",
+          "title": "Verified: Responsible Rabbit Breeding Practices",
+          "image": "https://images.pexels.com/photos/1157255/pexels-photo-1157255.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "content": [
+            {
+              "type": "text",
+              "data": "Guidelines for responsible and ethical rabbit breeding."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/responsible-rabbit-breeding"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2023-12-15T10:00:00Z",
+        "title": "BDC Software Update",
+        "id": 15,
+        "fake_article": {
+          "timestamp": "2023-12-15T10:00:00Z",
+          "title": "Unverified Claims on BDC Software Update",
+          "image": "https://images.pexels.com/photos/3290068/pexels-photo-3290068.jpeg?auto=compress&cs=tinysrgb&w=1600",
+          "content": [
+            {
+              "type": "text",
+              "data": "False information about the latest software update from BDC."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/bdc-software-update-claims"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2023-12-16T15:30:00Z",
+          "title": "Confirmed: BDC's Genuine Software Upgrade",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJiVVrzvJxFLcIOE9oE0OfI7UdITM_hz_flw&usqp=CAU",
+          "content": [
+            {
+              "type": "text",
+              "data": "Verification of the authenticity of BDC's latest software update."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/bdc-authentic-software-upgrade"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 1,
+        "timestamp": "2023-12-20T18:30:00Z",
+        "title": "Climate Change Action Plan",
+        "id": 16,
+        "fake_article": {
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKkDInvUcV3d-DdPHJkoWETJl3cnpQ6PVfCQ&usqp=CAU",
+          "timestamp": "2023-12-20T18:30:00Z",
+          "title": "Misinformation on Climate Change Action",
+          "content": [
+            {
+              "type": "text",
+              "data": "Incorrect details about a proposed action plan for climate change."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-action-misinformation"
+            }
+          ]
+        },
+        "true_article": {
+          "image": "https://images.pexels.com/photos/290275/pexels-photo-290275.jpeg?auto=compress&cs=tinysrgb&w=400",
+          "timestamp": "2023-12-21T12:00:00Z",
+          "title": "Verified: Legitimate Climate Change Action Proposal",
+          "content": [
+            {
+              "type": "text",
+              "data": "Confirmation of a legitimate proposal for taking action against climate change."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/legitimate-climate-action-proposal"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2023-12-25T14:45:00Z",
+        "title": "Rabbit Care Myths",
+        "id": 17,
+        "fake_article": {
+          "image": "https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "timestamp": "2023-12-25T14:45:00Z",
+          "title": "Debunked: Common Rabbit Care Myths",
+          "content": [
+            {
+              "type": "text",
+              "data": "Dispelling myths about caring for pet rabbits."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/rabbit-care-myths-debunked"
+            }
+          ]
+        },
+        "true_article": {
+          "image": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "timestamp": "2023-12-26T09:15:00Z",
+          "title": "Confirmed: Proper Care Practices for Pet Rabbits",
+          "content": [
+            {
+              "type": "text",
+              "data": "Validated information on the correct practices for caring for pet rabbits."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/proper-rabbit-care-practices"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 1,
+        "timestamp": "2023-12-28T11:00:00Z",
+        "title": "New Climate Models",
+        "id": 18,
+        "fake_article": {
+          "image": "https://images.pexels.com/photos/5847766/pexels-photo-5847766.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "timestamp": "2023-12-28T11:00:00Z",
+          "title": "Controversy Surrounding New Climate Models",
+          "content": [
+            {
+              "type": "text",
+              "data": "Recent climate models have sparked controversy."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/climate-model-controversy"
+            }
+          ]
+        },
+        "true_article": {
+          "image": "https://images.pexels.com/photos/2439595/pexels-photo-2439595.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "timestamp": "2023-12-29T08:30:00Z",
+          "title": "Verified: Insights into the Latest Climate Models",
+          "content": [
+            {
+              "type": "text",
+              "data": "Validated information on the latest advancements in climate modeling."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/latest-climate-models-insights"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 2,
+        "timestamp": "2024-01-02T14:30:00Z",
+        "title": "Rabbit Adoption Myths",
+        "id": 19,
+        "fake_article": {
+          "timestamp": "2024-01-02T14:30:00Z",
+          "title": "False Claims About Rabbit Adoption",
+          "image": "https://images.pexels.com/photos/1334605/pexels-photo-1334605.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "content": [
+            {
+              "type": "text",
+              "data": "Common misconceptions about adopting rabbits as pets."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/rabbit-adoption-myths"
+            }
+          ]
+        },
+        "true_article": {
+          "timestamp": "2024-01-03T10:00:00Z",
+          "title": "Confirmed: Best Practices for Rabbit Adoption",
+          "image": "https://images.pexels.com/photos/2082103/pexels-photo-2082103.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "content": [
+            {
+              "type": "text",
+              "data": "Guidelines for responsible and caring rabbit adoption practices."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/best-rabbit-adoption-practices"
+            }
+          ]
+        }
+      },
+      {
+        "category_id": 3,
+        "timestamp": "2024-01-07T18:45:00Z",
+        "title": "BDC Sustainability Initiatives",
+        "id": 20,
+        "fake_article": {
+          "timestamp": "2024-01-07T18:45:00Z",
+          "title": "Misleading Information on BDC's Sustainability Initiatives",
+          "image": "https://images.pexels.com/photos/2539462/pexels-photo-2539462.jpeg?auto=compress&cs=tinysrgb&w=600",
+          "content": [
+            {
+              "type": "text",
+              "data": "False claims regarding BDC's commitment to sustainability."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://fake-news-site.com/bdc-sustainability-misinformation"
+            }
+          ]
+        },
+        "true_article": {
+          "image": "https://images.pexels.com/photos/6272155/pexels-photo-6272155.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "timestamp": "2024-01-08T14:00:00Z",
+          "title": "Verified: BDC's Genuine Sustainability Efforts",
+          "content": [
+            {
+              "type": "text",
+              "data": "Confirmation of BDC's authentic and impactful sustainability initiatives."
+            },
+            {
+              "type": "image",
+              "data": {
+                "src": "https://images.pexels.com/photos/3331837/pexels-photo-3331837.jpeg?auto=compress&cs=tinysrgb&w=300",
+                "alt": "image"
+              }
+            },
+            {
+              "type": "link",
+              "data": "https://true-news-site.com/bdc-authentic-sustainability-efforts"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

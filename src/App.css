@@ -1,0 +1,99 @@
+body {
+  background-color: #898989;
+}
+.jw-button-container {
+  display: none !important;
+}
+:root {
+  --base-color: #1f2128;
+  --helper-color: black;
+  --secondary-color: white;
+}
+.card_parent {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.inner_card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.card_parent:hover .inner_card {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.flip-card-front {
+  color: var(--helper-color);
+}
+
+.flip-card-back {
+  color: var(--secondary-color);
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.module_container::-webkit-scrollbar {
+  background-color: #610b17;
+  width: 20px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.module_container::-webkit-scrollbar-thumb {
+  background-color: var(--helper-color);
+}
+.pagination_container {
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+}
+.pagination_container button {
+  background: var(--secondary-color);
+  margin-bottom: 20px;
+}
+.Mui-selected {
+  color: var(--secondary-color) !important;
+}
+.palestine {
+  /* clip-path: polygon(50% 100%, 0 0, 100% 0);
+  width: 60px;
+  /* height: 60px; */
+  /* background-color: #c62026; */
+  margin: 10px auto 0;
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 80px solid red;
+}
+.palestine_wrapper {
+  width: 0;
+  height: 0;
+  border-left: 45px solid transparent;
+  border-right: 45px solid transparent;
+  border-top: 90px solid #ffffff;
+  left: 50%;
+  top: -3px;
+  transform: translateX(-50%);
+  z-index: -1;
+  position: absolute;
+}
+.module_title {
+  font-family: "Playfair Display", serif;
+}
