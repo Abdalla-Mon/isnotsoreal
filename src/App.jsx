@@ -9,6 +9,7 @@ export const DataContext = createContext(null);
 
 function getData(setData, setPostData) {
   axios.get("/data.json").then((e) => {
+    console.log(e)
     setData(e.data.data);
     setPostData(e.data.data.posts);
   });
