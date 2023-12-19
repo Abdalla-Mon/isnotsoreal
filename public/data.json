@@ -1,4 +1,10 @@
-  {  "categories": [
+{
+  "data": {
+    "video_link": {
+      "src": "cat.mp4",
+      "title": "Mouse trap"
+    },
+    "categories": [
       {
         "id": 1,
         "label": "CNM"
