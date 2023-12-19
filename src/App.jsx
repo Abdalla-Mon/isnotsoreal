@@ -8,7 +8,7 @@ import { Divider, Pagination, Paper, Stack } from "@mui/material";
 export const DataContext = createContext(null);
 
 function getData(setData, setPostData) {
-  axios.get("./../data.json").then((e) => {
+  axios.get("/../data.json").then((e) => {
     setData(e.data.data);
     setPostData(e.data.data.posts);
   });
